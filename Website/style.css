@@ -3,6 +3,7 @@
 	padding: 0; 
 	border: 0; 
 	outline: 0;
+	box-sizing: border-box;
 }
 
 #opening {
@@ -82,15 +83,6 @@ nav a:hover {
 	margin-left:25%;
 	z-index: 1;
 	list-style-position: inside;
-}
-
-#bar {
-	margin-left: calc(50% - 50vw);
-	padding-top: 2px;
-	background-color: black;
-	margin-top: 100px;
-	z-index: 1;
-	width: 100vw;
 }
 
 #implement {
