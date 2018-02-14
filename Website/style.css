@@ -1,21 +1,30 @@
-*	{
-	margin-top: 0; 
-	padding: 0; 
-	border: 0; 
-	outline: 0;
-	box-sizing: border-box;
+html {
+	position: relative;
+	min-height: 100%;
 }
 
-#opening {
+body {
+    margin: 0 0 100px;
+    padding: 0;
+}
+
+.opening {
 	margin-left: calc(50% - 50vw);
+	position: absolute;
 	width: 100vw;
 	z-index: 999;
 	margin-bottom: 100px;
-	top: 0px;
+	top: 0;
 	left: 0;
 	right: 0;
 	text-align: center;
 	background-color: lightblue;
+	overflow: hidden;
+	text-indent: 20px;
+}
+
+p {
+	text-indent: 20px;
 }
 
 nav {
@@ -33,7 +42,7 @@ nav ul {
 	right: 0;
     overflow: hidden;
     background-color: #333;
-	top: -100px;
+	top: 390px;
 	text-align: center;
 	padding-left: 100px;
 }
@@ -77,18 +86,25 @@ nav a:hover {
 	color: blue;
 }  /* visited link */
 
-#purpose {
+.purpose {
 	position: relative;
+	float: left;
+	top: 400px;
+	float: center;
 	text-align: justify;
-	margin-left:25%;
+	margin-left:10%;
+	margin-bottom: 400px;
 	z-index: 1;
 	list-style-position: inside;
 }
 
-#implement {
+.implement {
+	position: relative;
+	float: left;
 	margin-top: 100px;
+	margin-bottom: 400px;
 	text-align: justify;
-	margin-left:25%;
+	margin-left:10%;
 	z-index: 1;
 	list-style-position: inside;
 	text-decoration: none;
@@ -103,11 +119,13 @@ nav a:hover {
 	margin-top: 200px;
 }
 
-#footer {
-	border-top: 1px;
-	border-color: black;
-	border-style: solid;
-	margin-top: 200px;
+footer {
+	width: 100%;
+	border-top: 1px solid black;
 	text-align: center;
-	float: bottom;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	overflow: hidden;
 }

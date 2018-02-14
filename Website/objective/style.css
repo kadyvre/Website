@@ -1,5 +1,10 @@
-*	{
-	margin-top: 0; 
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body	{
+	margin: 0 0 100px; 
 	padding: 0; 
 	border: 0; 
 	outline: 0;
@@ -77,19 +82,25 @@ nav a:hover {
 	list-style-position: inside;
 }
 
+p {
+	text-indent: 20px;
+}
+
 #intro2 {
 	position: relative;
 	text-align: justify;
-	margin-left:20%;
+	margin-left:10%;
 	z-index: 1;
 	list-style-position: inside;
 }
 
-#footer {
-	border-top: 1px;
-	border-color: black;
-	border-style: solid;
-	margin-top: 200px;
+footer {
+	width: 100%;
+	border-top: 1px solid black;
 	text-align: center;
-	float: bottom;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	overflow: hidden;
 }

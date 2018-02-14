@@ -78,10 +78,12 @@ nav a:hover {
 }
 
 #footer {
+	width: 100%;
 	border-top: 1px;
 	border-color: black;
 	border-style: solid;
 	margin-top: 200px;
 	text-align: center;
-	float: bottom;
+	position: relative;
+	bottom: 0;
 }
